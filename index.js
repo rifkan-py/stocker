@@ -16,5 +16,5 @@ connectDB(process.env.MONGO_URI);
 app.use("/api/products/", productRoutes);
 
 app.listen(port, () => {
-  console.log(`server is listening on port http://lovslhost:${port}...`);
+  console.log(`server is listening on port http://localhost:${port}...`);
 });
